@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/2124c884af.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="panel">
+    <div class="row m-0 h-100">
+      <div class="panel-left col-2 p-0 px-4 text-white text-center">
+        <section class="date-box">
+          <p class="mb-0 day">Wednesday</p>
+          <p class="mb-0 time">12:00</p>
+          <p class="mb-0 date text-muted">14/11/2022</p>
+        </section>
+        <nav class="menu">
+          <a href="index.html">
+            <div class="menu-item">
+              <i class="fas fa-sliders-h"></i>
+              <p>Main page</p>
+            </div>
+          </a>
+          <a href="posts.html" class="active">
+            <div class="menu-item">
+              <i class="far fa-comments"></i>
+              <p>Posts</p>
+            </div>
+          </a>
+          <a href="users.html">
+            <div class="menu-item">
+              <i class="fas fa-user-friends"></i>
+              <p>Users</p>
+            </div>
+          </a>
+        </nav>
+        <section class="info-box mt-3">
+          <h3>Lorem</h3>
+          <p class="text-muted"> &copy; Copyright 2022</p>
+        </section>
+      </div>
+
+
+      <div class="panel-right col-10 p-0 text-light text-center posts">
+        <section class="info-top my-4 pt-5">
+        </section>
+
+        <section class="p-5">
+          <h3 class="mb-4">Featured posts</h3>
+          <div class="row m-0">
+            <div class="col card bg-transparent m-3 p-3 border-white featured-post">
+              <div class="card-body">
+                <p class="card-title mb-0">Topic:</p>
+                <p class="text-muted">#name-topic</p>
+                <p class="card-text">
+                  <strong>Contents:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio possimus eum magni!
+                </p>
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                  post</button>
+              </div>
+            </div>
+            <div class="col card bg-transparent m-3 p-3 border-white featured-post">
+              <div class="card-body">
+                <p class="card-title mb-0">Topic:</p>
+                <p class="text-muted">#name-topic</p>
+                <p class="card-text">
+                  <strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio possimus eum magni!
+                </p>
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                  post</button>
+              </div>
+            </div>
+            <div class="col card bg-transparent m-3 p-3 border-white featured-post">
+              <div class="card-body">
+                <p class="card-title mb-0">Topic:</p>
+                <p class="text-muted">#name-topic</p>
+                <p class="card-text">
+                  <strong>Treść:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio possimus eum magni!
+                </p>
+                <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">See
+                  post</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="active-users p-5">
+          <h3 class="mb-4">the most effective users </h3>
+          <div class="card-group">
+            <div class="card m-3 bg-transparent border-0">
+              <div class="card-img">
+                <img src="./img/01.jpg" alt="lorem ipsum" class="card-img-top">
+              </div>
+              <div class="card-body d-flex justify-content-between">
+                <p>#name-user</p>
+                <button class="btn btn-outline-light">Show profile</button>
+              </div>
+            </div>
+            <div class="card m-3 bg-transparent border-0">
+              <div class="card-img">
+                <img src="./img/02.jpg" alt="lorem ipsum" class="card-img-top">
+              </div>
+              <div class="card-body d-flex justify-content-between">
+                <p>#name-user</p>
+                <button class="btn btn-outline-light">Show profile</button>
+              </div>
+            </div>
+            <div class="card m-3 bg-transparent border-0">
+              <div class="card-img">
+                <img src="./img/03.jpg" alt="lorem ipsum" class="card-img-top">
+              </div>
+              <div class="card-body d-flex justify-content-between">
+                <p>#name-user</p>
+                <button class="btn btn-outline-light">Show profile</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="find-post border-top p-5">
+          <h3 class="mb-3">Find post</h3>
+          <p class="mb-5">Select a category, enter the text and press "Search" button.</p>
+
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Search</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">User name</a></li>
+              <li><a class="dropdown-item" href="#">Topic name</a></li>
+              <li><a class="dropdown-item" href="#">Keywords</a></li>
+
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            <button class="btn btn-outline-light px-4">Search</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade posts-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3>Topic:</h3>
+          <p>Topic name</p>
+          <h3>Content:</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo accusantium tempore veniam.</p>
+          <h3>Option:</h3>
+          <div>
+            <button class="btn btn-outline-success"> <i class="far fa-edit me-2"></i> edit</button>
+            <button class="btn btn-outline-danger"> <i class="far fa-trash-alt me-2"></i> delete</button>
+            <button class="btn btn-outline-info"> <i class="fas fa-link me-2"></i> show in topic</button>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
